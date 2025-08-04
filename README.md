@@ -1,2 +1,2 @@
-# SOC-Level-1
-Notes and code snippets from the TryHackMe SOC Level 1 Learning path
+# Jr Penetration Tester 
+Notes and code snippets from the TryHackMe Jr Penetration Tester Learning path
