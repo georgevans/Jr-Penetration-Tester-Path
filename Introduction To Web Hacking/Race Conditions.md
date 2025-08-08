@@ -7,7 +7,6 @@
 
 
 ## Tools / commands
-## Tools / commands
 
 ### Burp Suite
 #### Tool - Repeater (Race Condition Testing)
